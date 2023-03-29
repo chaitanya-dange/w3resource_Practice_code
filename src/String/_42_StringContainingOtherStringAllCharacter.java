@@ -12,6 +12,9 @@ public class _42_StringContainingOtherStringAllCharacter {
         list.add("bribe");
         list.add("dog");
 
+        String str= "bib";
+
+
 
 
     }
