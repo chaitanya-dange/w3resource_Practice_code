@@ -14,6 +14,7 @@ public class _02_SumOfValueOfArrays {
 
        int sum=Arrays.stream(my_array).sum();
 
+
        int sum02= IntStream.range(0,my_array2.length).sum();
 
 

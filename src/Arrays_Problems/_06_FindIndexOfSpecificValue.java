@@ -19,10 +19,10 @@ public class _06_FindIndexOfSpecificValue {
         System.out.println(index);
 
         //Using stream()
-        int indexStream= IntStream.range(0,my_array.length)
-                .filter(i -> value==my_array[i])
-                        .findFirst()
-                                .orElse(-1);
+        int indexStream= IntStream.range(0,my_array.length).
+                filter(i -> value==my_array[i]).
+                findFirst().
+                orElse(-1);
         System.out.println(indexStream);
     }
 }

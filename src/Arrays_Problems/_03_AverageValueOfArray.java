@@ -10,6 +10,7 @@ public class _03_AverageValueOfArray {
         System.out.println(averageNum);
         System.out.println(mini);
 
+
     }
 }
 

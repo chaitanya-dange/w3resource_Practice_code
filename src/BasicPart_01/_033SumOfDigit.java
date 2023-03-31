@@ -3,6 +3,7 @@ package BasicPart_01;
 public class _033SumOfDigit {
     public static void main(String[] args) {
         int number=12345;
+
         int sum=0;
         while(number>0){
             sum=sum+ number%10;

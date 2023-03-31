@@ -20,6 +20,11 @@ public class _01_SortingNumberArrayAndStringArray {
                 "C++"
         };
 
+        int[] my_array3 = {
+                1789, 2035, 1899, 1456, 2013,
+                1458, 2458, 1254, 1472, 2365,
+                1456, 2165, 1457, 2456};
+
         System.out.println(Arrays.toString(my_array1));  //my_array1.toString() will give reference
         System.out.println(Arrays.toString(my_array2));
 
@@ -29,6 +34,8 @@ public class _01_SortingNumberArrayAndStringArray {
 
         System.out.println(Arrays.toString(my_array1));
         System.out.println(Arrays.toString(my_array2));
+
+
 
     }
 }

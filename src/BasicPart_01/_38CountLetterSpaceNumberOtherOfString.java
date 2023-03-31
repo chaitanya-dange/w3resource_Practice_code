@@ -18,7 +18,9 @@ public class _38CountLetterSpaceNumberOtherOfString {
             }else {
                 otherCount=otherCount+1;
             }
+
         }
+
 
         System.out.println(letterCount+" ,"+numberCount+","+otherCount+","+spaceCount);
     }
